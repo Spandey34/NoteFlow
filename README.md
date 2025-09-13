@@ -51,11 +51,11 @@ This application uses a **Shared Schema with a `tenantId`** approach for multi-t
 
 1.  **Clone the Repository**:
     ```bash
-    git clone <your-repository-url>
-    cd <repository-folder>
+    git clone https://github.com/Spandey34/NoteFlow
+    cd NoteFlow
     ```
 
-2.  **Backend Setup (`/api` folder)**:
+2.  **Backend Setup (`/backend` folder)**:
     ```bash
     cd api
     npm install
