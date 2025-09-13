@@ -10,7 +10,6 @@ import tenantsRouter from './routes/tenants.js';
 dotenv.config();
 
 const app = express();
-console.log(process.env.MONGODB_URI);
 
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log('MongoDB Connected'))
