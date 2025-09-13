@@ -1,13 +1,13 @@
 {
   "name": "noteflow-monorepo",
   "version": "1.0.0",
+  "private": true,
   "workspaces": [
     "backend",
     "frontend"
   ],
   "scripts": {
-    "dev": "npm run dev --workspace=frontend",
-    "install-backend": "npm install --workspace=backend",
-    "install-frontend": "npm install --workspace=frontend"
+    "dev": "pnpm --filter frontend dev",
+    "dev:backend": "pnpm --filter backend dev"
   }
 }
