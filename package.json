@@ -1,0 +1,13 @@
+{
+  "name": "multi-tenant-notes-app",
+  "version": "1.0.0",
+  "workspaces": [
+    "api",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend",
+    "install-backend": "npm install --workspace=backend",
+    "install-frontend": "npm install --workspace=frontend"
+  }
+}
