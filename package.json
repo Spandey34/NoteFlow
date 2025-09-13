@@ -1,8 +1,8 @@
 {
-  "name": "multi-tenant-notes-app",
+  "name": "noteflow-monorepo",
   "version": "1.0.0",
   "workspaces": [
-    "api",
+    "backend",
     "frontend"
   ],
   "scripts": {
