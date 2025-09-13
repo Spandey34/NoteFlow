@@ -57,10 +57,10 @@ This application uses a **Shared Schema with a `tenantId`** approach for multi-t
 
 2.  **Backend Setup (`/backend` folder)**:
     ```bash
-    cd api
+    cd backend
     npm install
     ```
-    Create a `.env` file in the `/api` directory and add your environment variables:
+    Create a `.env` file in the `/backend` directory and add your environment variables:
     ```env
     MONGODB_URI=your_mongodb_connection_string
     JWT_SECRET=a_very_strong_and_secret_key
